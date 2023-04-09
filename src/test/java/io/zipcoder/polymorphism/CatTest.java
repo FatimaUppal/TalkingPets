@@ -1,5 +1,8 @@
 package io.zipcoder.polymorphism;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 public class CatTest {
     @Test
     public void testConstructor(){

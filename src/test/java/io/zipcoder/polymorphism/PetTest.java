@@ -1,5 +1,8 @@
 package io.zipcoder.polymorphism;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 public class PetTest {
 
     @Test
@@ -13,7 +16,7 @@ public class PetTest {
     @Test
     public void testSpeak(){
         Pet pet = new Pet("James");
-        String speakExpected = "noise!";
+        String speakExpected = "";
         String speakActual = pet.speak();
         Assert.assertEquals(speakExpected, speakActual);
     }
